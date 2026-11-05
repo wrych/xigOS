@@ -1,0 +1,20 @@
+{
+  "name": "xigos",
+  "owner": {
+    "name": "xigo"
+  },
+  "metadata": {
+    "description": "The way xigo builds software: a shared constitution, recorded decisions and a reviewer gate for every xigo project"
+  },
+  "plugins": [
+    {
+      "name": "xigos",
+      "source": "./",
+      "description": "xigo's harness: the base constitution, branch and commit rules, and the reviewer gate every xigo project extends",
+      "version": "0.1.0",
+      "license": "MIT",
+      "repository": "https://github.com/wrych/xigOS",
+      "category": "workflow"
+    }
+  ]
+}

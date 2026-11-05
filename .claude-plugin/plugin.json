@@ -1,0 +1,18 @@
+{
+  "name": "xigos",
+  "version": "0.1.0",
+  "description": "xigo's harness: the base constitution, branch and commit rules, and the reviewer gate every xigo project extends",
+  "author": {
+    "name": "xigo"
+  },
+  "homepage": "https://xigo.ch",
+  "repository": "https://github.com/wrych/xigOS",
+  "license": "MIT",
+  "keywords": [
+    "constitution",
+    "adr",
+    "code-review",
+    "conventional-commits",
+    "workflow"
+  ]
+}
