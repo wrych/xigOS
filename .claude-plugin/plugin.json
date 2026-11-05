@@ -1,6 +1,6 @@
 {
   "name": "xigos",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "xigo's harness: the base constitution, branch and commit rules, and the reviewer gate every xigo project extends",
   "author": {
     "name": "xigo"
