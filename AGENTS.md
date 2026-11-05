@@ -17,8 +17,8 @@ docs/
 THIRD_PARTY.md      everything vendored, with its source, version and license
 ```
 
-The plugin itself (`.claude-plugin/marketplace.json` and `plugin/`) arrives in
-its own change, after these decisions.
+The repository root is the plugin (ADR 0002). Its manifests, agents, skills
+and hooks arrive in their own changes, after these decisions.
 
 ## How a change happens
 

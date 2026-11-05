@@ -19,8 +19,12 @@ never reaches the others.
 xigOS is a **Claude Code plugin**, published from this repository through its
 own **plugin marketplace**:
 
-- `.claude-plugin/marketplace.json` at the root lists one plugin, `xigos`.
-- `plugin/` holds the plugin: its agents, skills, hooks and scripts.
+- `.claude-plugin/marketplace.json` at the root lists one plugin, `xigos`,
+  whose source is the repository root.
+- The root **is** the plugin: `.claude-plugin/plugin.json`, `agents/`,
+  `skills/`, `hooks/` and `scripts/` sit beside `docs/`. An installed plugin
+  receives only its own folder, so the base constitution must be inside it to
+  reach the projects that extend it.
 - `docs/constitution.md` is the **base constitution**. A project extends it in
   its own `docs/constitution.md`; it adds and tightens, and loosens only with an
   ADR of its own.
