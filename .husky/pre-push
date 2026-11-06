@@ -1,0 +1,3 @@
+npm run format:check --silent
+npm test --silent
+node scripts/review/run.mjs --pre-push
