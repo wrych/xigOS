@@ -17,8 +17,19 @@ docs/
 THIRD_PARTY.md      everything vendored, with its source, version and license
 ```
 
-The repository root is the plugin (ADR 0002). Its manifests, agents, skills
-and hooks arrive in their own changes, after these decisions.
+The repository root is the plugin (ADR 0002):
+
+```
+.claude-plugin/     the plugin and marketplace manifests (one version, kept equal)
+agents/             plugin agents — reviewer.md is the review gate's reviewer
+hooks/              the session-start hook
+scripts/review/     the review gate, run by projects as `npx xigos-review` (ADR 0004)
+tests/              node:test suites for all of the above (`npm test`)
+evals/              agents run against fixtures (`npm run eval`; needs `claude`)
+```
+
+A release bumps the version in `package.json` and both manifests together and
+is tagged `vX.Y.Z`; projects pin that tag.
 
 ## How a change happens
 

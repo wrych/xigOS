@@ -1,6 +1,6 @@
 {
   "name": "xigos",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "xigo's harness, packaged as a Claude Code plugin",
   "license": "MIT",
@@ -12,9 +12,14 @@
     "test": "node --test \"tests/**/*.test.mjs\"",
     "validate": "claude plugin validate . && claude plugin validate --strict .claude-plugin/marketplace.json",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "review": "node scripts/review/run.mjs",
+    "eval": "node --test \"evals/**/*.eval.mjs\""
   },
   "devDependencies": {
     "prettier": "3.6.2"
+  },
+  "bin": {
+    "xigos-review": "scripts/review/run.mjs"
   }
 }
