@@ -46,6 +46,17 @@ is tagged `vX.Y.Z`; projects pin that tag.
 Do not batch unrelated fixes. Do not land a refactor and a behavior change
 together.
 
+### Before you push
+
+`npm install` sets up the git hooks; in a cloud session the SessionStart hook
+runs it. Commit messages are checked by commitlint, staged files are
+formatted, and the pre-push hook runs the format check, the tests, and then
+xigOS's own review gate on the branch — the same gate projects use.
+
+A finding at the threshold blocks the push. Fix it, or — if the reviewer is
+wrong — say why in the PR. **Agents never use `--no-verify`.** A prompt change
+also runs `npm run eval` before the push.
+
 ### Merging
 
 | The change                                                          | Merged by                         |
