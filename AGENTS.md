@@ -71,6 +71,14 @@ also runs `npm run eval` before the push.
 An agent that merges says so, with the PR link. When unsure which row a change
 falls in, it is a maintainer's. Maintainers: Ivo Pejakovic, Andy Moesch.
 
+### Rewriting your own branch
+
+An agent may rebase, squash or reword its **own** branch while its pull
+request is open, and push it with
+`git push --force-with-lease=<branch>:<sha it last pushed>` (ADR 0005). Never
+`main`, a merged branch, a branch anyone else pushed to, or a plain `--force`.
+Say in the pull request what was rewritten and why.
+
 ## Bringing something in from ECC
 
 xigOS vendors from [ECC](https://github.com/affaan-m/ecc) by hand, one piece per
