@@ -48,7 +48,8 @@ is tagged `vX.Y.Z`; projects pin that tag.
    chat**, send them inline with the message that reports the change, asks
    for approval or offers options — that is where they matter most. **In the
    PR**, publish them on one private Artifact page and link it under "How it
-   is tested". Never commit them. Cannot run it? Say why instead.
+   is tested"; where you cannot publish one, say there that they were sent in
+   the chat. Never commit them. Cannot run it? Say why instead.
 
 Do not batch unrelated fixes. Do not land a refactor and a behavior change
 together.

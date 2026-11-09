@@ -41,14 +41,16 @@ refuses, since the gate reviews only commits on the checked-out branch.
 - **And in the pull request:** never committed to the branch. Where the
   harness can publish a private page (a claude.ai Artifact), the agent
   publishes one page with the images and video, captioned, and links it under
-  "How it is tested". A person writing a pull request drags them into the
+  "How it is tested". Where it cannot, it says there that the captures were
+  sent in the chat. A person writing a pull request drags them into the
   description.
 - **When it cannot capture** — no runnable app, a service the session cannot
   reach — it says so and why, in the chat and under "How it is tested". It
   never shows a mock-up as a capture of the change.
 - **Images are evidence, not tests.** The behavior still ships with its tests
   (§2).
-- Nothing to see — a refactor, a test, a tool — needs no capture.
+- Nothing to see — a refactor, a test, a change whose output is the same —
+  needs no capture.
 
 ## Alternatives considered
 
