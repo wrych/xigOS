@@ -77,3 +77,4 @@ refuses, since the gate reviews only commits on the checked-out branch.
 ## References
 
 Constitution §1, §2, §5. ADR 0004 (the review gate).
+Numbered after ADR 0005, which is open alongside it in wrych/xigOS#5.
