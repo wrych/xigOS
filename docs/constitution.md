@@ -29,9 +29,10 @@ a review as grounds to reject a change.
 - **Never commit a change you have not run.** Tests pass locally before the
   push.
 - Refactoring and behavior change do not share a commit. Separate them, always.
-- **History is rewritten only on your own open branch**, never on `main`, a
-  merged branch or a branch someone else pushed to, and only with
-  `git push --force-with-lease=<branch>:<sha you last pushed>` (ADR 0005).
+- **An agent force-pushes only its own open branch**: one no one else has
+  pushed to, whose pull request is unmerged, with
+  `git push --force-with-lease=<branch>:<sha it last pushed>`. Never `main`,
+  never plain `--force` (ADR 0005).
 
 ## 2. Tests
 
