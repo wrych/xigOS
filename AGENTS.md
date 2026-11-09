@@ -42,6 +42,12 @@ is tagged `vX.Y.Z`; projects pin that tag.
    behavior: an agent or skill that changes ships with the example or eval that
    shows it.
 5. **Open a PR** citing what it serves. Squash-merge.
+6. **Show what changed.** A change a person can see — a screen, an email,
+   command output — gets screenshots or a short video in the PR (ADR 0006):
+   before and after, phone and desktop width, seeded data only. In a cloud
+   session, publish them on one private Artifact page, link it under "How it
+   is tested", and send the files in the session. Never commit them. Cannot
+   run it? Say why instead.
 
 Do not batch unrelated fixes. Do not land a refactor and a behavior change
 together.
