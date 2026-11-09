@@ -13,7 +13,7 @@ ADR:
 
 <!-- The tests or examples that came with the change, and anything checked by hand.
      Something a person can see changed? Screenshots or a short video, or a link
-     to the page with them (ADR 0006). -->
+     to the page with them, or a note that they went to the chat (ADR 0006). -->
 
 ## Checklist
 
