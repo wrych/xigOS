@@ -44,7 +44,8 @@ is tagged `vX.Y.Z`; projects pin that tag.
 5. **Open a PR** citing what it serves. Squash-merge.
 6. **Show what changed.** A change a person can see — a screen, an email,
    command output — is shown in screenshots or a short video (ADR 0006):
-   before and after, phone and desktop width, seeded data only. **In the
+   seeded data only; before and after when there was a before; a screen at
+   phone and desktop width. **In the
    chat**, send them inline with the message that reports the change, asks
    for approval or offers options — that is where they matter most. **In the
    PR**, publish them on one private Artifact page and link it under "How it
