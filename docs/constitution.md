@@ -26,8 +26,9 @@ a review as grounds to reject a change.
 - **Branches are named `type/short-topic`**, with the Conventional Commit type
   of the change: `feat/reviewer-gate`, `docs/vendoring-rules`.
 - Every PR cites what it serves — a requirement id, an issue, or an ADR.
-- **A PR whose change can be seen shows it**: screenshots or a short video of
-  the change running, with seeded data, whenever it can be run (ADR 0006).
+- **A change that can be seen is shown**: screenshots or a short video of it
+  running, with seeded data, in the chat where it is reported and in its PR,
+  whenever it can be run (ADR 0006).
 - **Never commit a change you have not run.** Tests pass locally before the
   push.
 - Refactoring and behavior change do not share a commit. Separate them, always.

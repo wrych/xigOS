@@ -43,11 +43,12 @@ is tagged `vX.Y.Z`; projects pin that tag.
    shows it.
 5. **Open a PR** citing what it serves. Squash-merge.
 6. **Show what changed.** A change a person can see — a screen, an email,
-   command output — gets screenshots or a short video in the PR (ADR 0006):
-   before and after, phone and desktop width, seeded data only. In a cloud
-   session, publish them on one private Artifact page, link it under "How it
-   is tested", and send the files in the session. Never commit them. Cannot
-   run it? Say why instead.
+   command output — is shown in screenshots or a short video (ADR 0006):
+   before and after, phone and desktop width, seeded data only. **In the
+   chat**, send them inline with the message that reports the change, asks
+   for approval or offers options — that is where they matter most. **In the
+   PR**, publish them on one private Artifact page and link it under "How it
+   is tested". Never commit them. Cannot run it? Say why instead.
 
 Do not batch unrelated fixes. Do not land a refactor and a behavior change
 together.
