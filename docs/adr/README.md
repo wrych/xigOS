@@ -30,10 +30,11 @@ bump, or a vendored piece ADR 0003 already lists.
 
 ## Index
 
-| #                                                                         | Decision                                                  | Status   |
-| ------------------------------------------------------------------------- | --------------------------------------------------------- | -------- |
-| [0001](0001-record-architecture-decisions.md)                             | Record architecture decisions                             | Accepted |
-| [0002](0002-xigos-is-a-shared-claude-code-plugin.md)                      | xigOS is a shared Claude Code plugin with a marketplace   | Accepted |
-| [0003](0003-vendor-a-curated-set-from-ecc.md)                             | Vendor a curated set of agents and skills from ECC        | Accepted |
-| [0004](0004-projects-run-the-review-gate-from-a-pinned-git-dependency.md) | Projects run the review gate from a pinned git dependency | Accepted |
-| [0005](0005-agents-may-rewrite-their-own-open-branch.md)                  | Agents may rewrite their own open branch, with a lease    | Accepted |
+| #                                                                         | Decision                                                      | Status   |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------- | -------- |
+| [0001](0001-record-architecture-decisions.md)                             | Record architecture decisions                                 | Accepted |
+| [0002](0002-xigos-is-a-shared-claude-code-plugin.md)                      | xigOS is a shared Claude Code plugin with a marketplace       | Accepted |
+| [0003](0003-vendor-a-curated-set-from-ecc.md)                             | Vendor a curated set of agents and skills from ECC            | Accepted |
+| [0004](0004-projects-run-the-review-gate-from-a-pinned-git-dependency.md) | Projects run the review gate from a pinned git dependency     | Accepted |
+| [0005](0005-agents-may-rewrite-their-own-open-branch.md)                  | Agents may rewrite their own open branch, with a lease        | Accepted |
+| [0006](0006-show-what-changed-on-screen.md)                               | Show what changed on screen, in the chat and the pull request | Accepted |
